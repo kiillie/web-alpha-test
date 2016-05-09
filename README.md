@@ -1,13 +1,15 @@
-# Flux Todo List Example
+##react-todo
 
-This code is for a tutorial [here](http://tylermcginnis.com/reactjs-tutorial-pt-3-architecting-react-js-apps-with-flux/).
+This is a simple todo list application mainly utilizing React JS and the Flux architecture. It's meant as a tutorial or guide for how to build a React JS application.
 
-# Getting Started
+It uses npm and bower for package management, the default Bootstrap theme, LESS CSS for minor style and positioning adjustments, and finally brunch to build it all up and provide a simple web server. It also uses node's EventEmitter for event notifications as per the Flux architecture.
 
-Clone the project and get it running:
-```
-npm install
-npm start
-```
+###Installation
 
-Then open [http://localhost:3000](http://localhost:3000) in your browser.
+make build
+
+###Run
+
+make start
+
+Access at http://localhost:3333.
